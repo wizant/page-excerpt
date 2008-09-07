@@ -4,7 +4,7 @@ Donate link: http://wordpress.org/donate/
 Tags: excerpt, page, page excerpt, advanced options, CMS, content management
 Requires at least: 2.6
 Tested up to: 2.6.1
-Stable tag: 2
+Stable tag: trunk
 
 This plugin adds the same functionality of the excerpt feature in posts to pages.
 
