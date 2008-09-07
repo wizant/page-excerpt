@@ -11,7 +11,8 @@ This plugin adds the same functionality of the excerpt feature in posts to pages
 == Description ==
 
 This plugin adds the same functionality of the excerpt feature in posts to pages. It is
-based upon the same code used in WordPress to add the functionality to posts.
+based upon the same code used in WordPress to add the functionality to posts. This one is compatible
+with WordPress 2.6+ because it uses newer code than other similar plugins.
 
 
 == Installation ==
