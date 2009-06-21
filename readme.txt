@@ -32,5 +32,9 @@ with WordPress 2.6+ because it uses newer code than other similar plugins.
 = How do I use this? =
 On the create (or edit) pages page, you will see a box called 'Page Excerpt'. It allows you to put in a short summary of your content. You can then call it using the `<?php the_excerpt(); ?>` function within the loop
 
+= I have a question you didn't answer! =
+Post a message on [PageExcerpt's page](http://masseltech.com/plugins/page-excerpt/ "PageExcerpt's page") and leave a message in the comments if you have a question that needs answering!
+
+
 == Screenshots ==
 1. The Page Excerpt Box
