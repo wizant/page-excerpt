@@ -9,7 +9,14 @@ Author URI: http://www.masseltech.com/
 */
 
 add_action( 'edit_page_form', 'pe_add_box');
+add_action('init', 'my_custom_init');
 
+function pe_init() {
+	if(function_exists("add_post_type_support")) //support 3.1 and greater
+	{
+		add_post_type_support( 'page', 'excerpt' );
+	}
+}
 
 function pe_page_excerpt_meta_box($post) {
 ?>
@@ -21,7 +28,9 @@ function pe_page_excerpt_meta_box($post) {
 
 function pe_add_box()
 {
-	add_meta_box('postexcerpt', __('Page Excerpt'), 'pe_page_excerpt_meta_box', 'page', 'advanced', 'core');
+	if(!function_exists("add_post_type_support")) //legacy
+	{		add_meta_box('postexcerpt', __('Page Excerpt'), 'pe_page_excerpt_meta_box', 'page', 'advanced', 'core');
+	}
 }
 
 ?>

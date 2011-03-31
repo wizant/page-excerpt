@@ -3,16 +3,14 @@ Contributors: jkmassel
 Donate link: http://wordpress.org/donate/
 Tags: excerpt, page, page excerpt, advanced options, CMS, content management
 Requires at least: 2.6
-Tested up to: 2.8
-Stable tag: 1.0
+Tested up to: 3.1
+Stable tag: 1.1
 
 This plugin adds the same functionality of the excerpt feature in posts to pages.
 
 == Description ==
 
-This plugin adds the same functionality of the excerpt feature in posts to pages. It is
-based upon the same code used in WordPress to add the functionality to posts. This one is compatible
-with WordPress 2.6+ because it uses newer code than other similar plugins.
+This plugin adds the same functionality of the excerpt feature in posts to pages.
 
 
 == Installation ==
@@ -23,6 +21,9 @@ with WordPress 2.6+ because it uses newer code than other similar plugins.
 
 
 == Changelog ==
+
+= 1.1 =
+* Supports WP 3.1 and greater
 
 = 1.0 =
 * First version
